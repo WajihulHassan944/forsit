@@ -322,12 +322,37 @@
                         </nav>-->
                         </div>
                         <div class="nav-link-dropdown-toggle bot-space"><a href="" class="nav-link w-nav-link" style="color:#253650;">About</a></div>
-                        <div class="nav-link-dropdown-toggle bot-space"><a href="" class="nav-link w-nav-link" style="color:#253650;">Resources</a></div>
+                        <div class="nav-link-dropdown-toggle bot-space mega-menus" ><a href="" class="nav-link w-nav-link" style="color:#253650;">Resources</a>
+						<div class="megaDiv"><h1>Mega Menu will be displayed here</h1></div>
+						</div>
                         <div class="nav-link-dropdown-toggle bot-space"><a href="" class="nav-link hovered-dot w-nav-link" style="color:#253650;">Blogs</a></div>
                         <!--<div class="nav-link-dropdown-toggle bot-space"><a href="" class="nav-link w-nav-link" style="color:#253650;">About</a>
 						</div>
 						-->
 						</nav>
+						<style>
+						.megaDiv{
+							position:absolute;
+							left:0;
+							right:0;
+							width:100%;
+							background:#fff;
+							height:200px;
+							top:100px;
+							display:none;
+							justify-content:center;
+							align-items:center;
+						}
+						.megaDiv h1{
+							text-align:center;
+							font-size:17px;
+						}
+						
+.mega-menus:hover .megaDiv {
+    display: flex;
+}
+						
+						</style>
                         <div data-w-id="f7001b6d-1493-6836-f8a7-6154bd6bf611" class="menu-ham-wrap w-nav-button">
                             <div class="ham-line-1"></div>
                             <div class="ham-line-2"></div>
@@ -337,9 +362,13 @@
                             <div class="nav-btn-text nav-btn-text-1" style=" color:#fff; border-radius:10px; box-shadow:0 10px 20px rgba(0,0,0,0.3); border:none;">Contact</div>
 							
                         </a>
+						
+						
                     </div>
                 </div>
-    </div>
+    
+	</div>
+	
     <div class="gradient-border-header"></div>
     </section>
     <div class="header-false-height"></div>
@@ -556,7 +585,7 @@
                 <h2 class="leading-brand-title" style="color:#253650;">Global success partner<br/> for Korean brands.</h2>
                 <div class="gradient-border-header"></div>
             </div>
-            <div data-w-id="f19f898d-af48-c5a2-510c-a20731d0cc15" class="hero-sliders-logo-wrap home-leading-brands" style="background:#d6bfb3; padding:30px; border-radius:5px; box-shadow:0 10px 20px rgba(0,0,0,0.4);">
+            <div data-w-id="f19f898d-af48-c5a2-510c-a20731d0cc15" class="hero-sliders-logo-wrap home-leading-brands" style="background:#0061fe; padding:30px; border-radius:5px; box-shadow:0 10px 20px rgba(0,0,0,0.4);">
 			<a href="https://www.apgroup.com/int/ko/" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2454_Group%20211.svg" loading="lazy" alt="" class="slider-logo-img"/></a>
                 <a
                     href="https://www.lghnh.com/global/brand/list.jsp?type=BEAUTIFUL" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ba32c91a9e3f9f050b1d1_Group%201551.svg" loading="lazy" alt="" class="slider-logo-img" /></a><a href="https://recruit.nongshim.com/main/index" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ba32c94967e35eb238f95_Group%201550.svg" loading="lazy" alt="" class="slider-logo-img"/></a>
