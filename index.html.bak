@@ -279,24 +279,7 @@
 </head>
 
 <body class="body home-body" >
-    <section class="preloader-wrapper">
-        <div class="w-layout-blockcontainer preload-container w-container">
-            <div class="preload-numbers-wrap">
-                <div class="preloader-sub-heading">Boarding</div>
-                <h2 class="preload-heading"> </h2>
-                <div class="preload-number-percentage">
-                    <h2 class="preload-numbers">   </h2>
-                    <h2 class="percentage-mark">%</h2>
-                </div>
-            </div>
-            <div class="preload-tagline-wrap">
-                <p class="preload-tagline">Global Brand Accelerator</p>
-            </div>
-        </div>
-        <div data-poster-url="https://assets-global.website-files.com/6541b7db343cb0b372c966dc/654f40825d0bbc1cfca57c05_Type-A-poster-00001.jpg" data-video-urls="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2490_Type-A-transcode.mp4,https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2490_Type-A-transcode.webm"
-            data-autoplay="true" data-loop="true" data-wf-ignore="true" class="preloader-bg-video w-background-video w-background-video-atom"><video id="ae552f3f-ef88-94d0-45c4-1af8937f9b64-video" autoplay="" loop="" style="background-image:url(&quot;https://assets-global.website-files.com/6541b7db343cb0b372c966dc/654f40825d0bbc1cfca57c05_Type-A-poster-00001.jpg&quot;)" muted="" playsinline=""
-                data-wf-ignore="true" data-object-fit="cover"><source src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2490_Type-A-transcode.mp4" data-wf-ignore="true"/><source src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2490_Type-A-transcode.webm" data-wf-ignore="true"/></video></div>
-    </section>
+  
     <div data-w-id="fd4bc282-1095-0d7c-5837-0cb092155cc8" class="trigger"></div>
     <div id="transformDiv" class="page-wrapper">
         <main class="main-wrapper light-teal main-page--wrapper">
@@ -319,9 +302,11 @@
                     </div>
                 </div>
                 <div class="w-layout-blockcontainer header-bottom-container w-container" style="background:#f3ede6; ">
-                    <div class="header-logo-wrap"><a href="/" aria-current="page" class="logo-wrap w-inline-block w--current"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb23ca_logo%20(1).svg" loading="lazy" alt="" class="site-logo"/></a>
+                    <div class="header-logo-wrap">
+					<a href="#" aria-current="page" class="logo-wrap w-inline-block w--current">
+					<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb23ca_logo%20(1).svg" loading="lazy" alt="" class="site-logo" /></a>
                         <div
-                            class="logo-tagline">Global Brand Accelerator</div>
+                            class="logo-tagline" style="color:#253650;">Global Brand Accelerator</div>
                 </div>
                 <div data-animation="default" data-collapse="medium" data-duration="800" data-easing="ease" data-easing2="ease" role="banner" class="site-navigation-wrap w-nav">
                     <div class="nav-container w-container">
@@ -348,8 +333,8 @@
                             <div class="ham-line-2"></div>
                             <div class="ham-line-3"></div>
                         </div>
-                        <a data-w-id="11651eaf-1b7f-da1b-2fdd-00dbee85624a" href="" class="nav-button w-inline-block" style="background:#253650; box-shadow:none; border:none; color:#fff; width:110px; border-radius:30px;">
-                            <div class="nav-btn-text nav-btn-text-1" style=" color:#fff; border-radius:10px; box-shadow:none; border:none;">Contact</div>
+                        <a data-w-id="11651eaf-1b7f-da1b-2fdd-00dbee85624a" href="" class="nav-button w-inline-block" style="background:#253650; box-shadow:0 10px 20px rgba(0,0,0,0.1); border:none; color:#fff; width:110px; border-radius:30px;">
+                            <div class="nav-btn-text nav-btn-text-1" style=" color:#fff; border-radius:10px; box-shadow:0 10px 20px rgba(0,0,0,0.3); border:none;">Contact</div>
 							
                         </a>
                     </div>
@@ -531,14 +516,30 @@
                     }
                 </style>
             </div>
-            <div class="hero-marquee-animation">
-                <div class="hero-marquee-track">
-                    <div class="marquee-logo-container"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada293b3c693fffb74ce1_Group%2075.svg" loading="lazy" alt="" class="marquee-logo amazon" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29968a859c7bf6b9fa_Group%20(1).svg"
-                            loading="lazy" alt="" class="marquee-logo walmart" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2960eabf348e8e9f93_Group%20(2).svg" loading="lazy" alt="" class="marquee-logo qoo1" style="color:#253650;" /><img style="color:#253650;" src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2be5dcac0795ecb777_Group%20(3).svg"
-                            loading="lazy" alt="" class="marquee-logo ebay" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29968a859c7bf6b9fe_Group%20(4).svg" loading="lazy" alt="" class="marquee-logo ebay" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29f3efd1f4a42a7282_Group%20(5).svg"
-                            loading="lazy" alt="" class="marquee-logo" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada293b3c693fffb74ce1_Group%2075.svg" loading="lazy" alt="" class="marquee-logo amazon" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29968a859c7bf6b9fa_Group%20(1).svg"
-                            loading="lazy" alt="" class="marquee-logo walmart" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2960eabf348e8e9f93_Group%20(2).svg" loading="lazy" alt="" class="marquee-logo qoo1" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2be5dcac0795ecb777_Group%20(3).svg"
-                            loading="lazy" alt="" class="marquee-logo ebay" /><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29f3efd1f4a42a7282_Group%20(5).svg" loading="lazy" alt="" class="marquee-logo" /></div>
+            <div class="hero-marquee-animation" style="background:#0061fe; ">
+                <div class="hero-marquee-track" >
+                    <div class="marquee-logo-container" >
+					<img  src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada293b3c693fffb74ce1_Group%2075.svg" loading="lazy" alt="" class="marquee-logo amazon" />
+					<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29968a859c7bf6b9fa_Group%20(1).svg"
+                            loading="lazy" alt="" class="marquee-logo walmart" />
+							
+							<img  src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2960eabf348e8e9f93_Group%20(2).svg" loading="lazy" alt="" class="marquee-logo qoo1"  />
+							
+							<img style="color:#253650;" src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2be5dcac0795ecb777_Group%20(3).svg" loading="lazy" alt="" class="marquee-logo ebay" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29968a859c7bf6b9fe_Group%20(4).svg" loading="lazy" alt="" class="marquee-logo ebay" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29f3efd1f4a42a7282_Group%20(5).svg" loading="lazy" alt="" class="marquee-logo" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada293b3c693fffb74ce1_Group%2075.svg" loading="lazy" alt="" class="marquee-logo amazon" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29968a859c7bf6b9fa_Group%20(1).svg" loading="lazy" alt="" class="marquee-logo walmart" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2960eabf348e8e9f93_Group%20(2).svg" loading="lazy" alt="" class="marquee-logo qoo1" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada2be5dcac0795ecb777_Group%20(3).svg" loading="lazy" alt="" class="marquee-logo ebay" />
+							
+							<img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ada29f3efd1f4a42a7282_Group%20(5).svg" loading="lazy" alt="" class="marquee-logo" /></div>
                 </div>
             </div>
             <div class="hero-text-wrap">
@@ -555,7 +556,8 @@
                 <h2 class="leading-brand-title" style="color:#253650;">Global success partner<br/> for Korean brands.</h2>
                 <div class="gradient-border-header"></div>
             </div>
-            <div data-w-id="f19f898d-af48-c5a2-510c-a20731d0cc15" class="hero-sliders-logo-wrap home-leading-brands"><a href="https://www.apgroup.com/int/ko/" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2454_Group%20211.svg" loading="lazy" alt="" class="slider-logo-img"/></a>
+            <div data-w-id="f19f898d-af48-c5a2-510c-a20731d0cc15" class="hero-sliders-logo-wrap home-leading-brands" style="background:#d6bfb3; padding:30px; border-radius:5px; box-shadow:0 10px 20px rgba(0,0,0,0.4);">
+			<a href="https://www.apgroup.com/int/ko/" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb2454_Group%20211.svg" loading="lazy" alt="" class="slider-logo-img"/></a>
                 <a
                     href="https://www.lghnh.com/global/brand/list.jsp?type=BEAUTIFUL" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ba32c91a9e3f9f050b1d1_Group%201551.svg" loading="lazy" alt="" class="slider-logo-img" /></a><a href="https://recruit.nongshim.com/main/index" class="link-img-block w-inline-block"><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/658ba32c94967e35eb238f95_Group%201550.svg" loading="lazy" alt="" class="slider-logo-img"/></a>
                     <a
@@ -573,7 +575,7 @@
             <h2 class="service-timline-title" style="color:#253650;">Turning Korean Brands<br/>to Global Leaders</h2>
         </div>
     </section>
-    <section class="section-service-timeline" style="background:#f3ede6; ">
+    <section class="section-service-timeline" style="background:#fff; ">
         <div class="service-timeline-container">
             <div class="timeline_component">
                 <div class="timeline_progress">
@@ -874,7 +876,7 @@
 <path id="donut-dot-blue" d="M161.641 249.41C162.901 249.41 163.921 248.389 163.921 247.13C163.921 245.87 162.901 244.85 161.641 244.85C160.382 244.85 159.361 245.87 159.361 247.13C159.361 248.389 160.382 249.41 161.641 249.41Z" fill="white"/>
 <path id="donut-dot-green" d="M93.5398 255.941C94.799 255.941 95.8198 254.92 95.8198 253.661C95.8198 252.402 94.799 251.381 93.5398 251.381C92.2806 251.381 91.2598 252.402 91.2598 253.661C91.2598 254.92 92.2806 255.941 93.5398 255.941Z" fill="white"/>
 <path id="donut-dot-sky" d="M7.77997 157.48C9.03918 157.48 10.06 156.459 10.06 155.2C10.06 153.941 9.03918 152.92 7.77997 152.92C6.52076 152.92 5.5 153.941 5.5 155.2C5.5 156.459 6.52076 157.48 7.77997 157.48Z" fill="white"/>
-</svg></div><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb240a_Group%20171.svg" loading="lazy" alt="" class="donut-center-logo" />
+</svg></div><img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb240a_Group%20171.svg" loading="lazy" alt="" class="donut-center-logo" style="background:#0061fe; padding:20px; padding-bottom:15px;" />
                             <div class="donut-market-goal">Ready, Set, Go!<br/>Global export <br/>process</div>
                             <div class="graph-title-wrap">
                                 <div class="graph-title">Store Setup</div>
@@ -1421,8 +1423,8 @@
                                     <h4 class="flowing-text flowing-3">Export of SKU: 1,700+</h4>
                                     <h4 class="flowing-text flowing-4">of Categories: 4</h4>
                                 </div>
-                                <div class="country-text-svg">
-                                    <div class="country-text">Amazon US</div>
+                                <div class="country-text-svg" >
+                                    <div class="country-text" >Amazon US</div>
                                     <div class="country-text">Amazon Canada</div>
                                     <div class="country-text">Amazon EU, UK</div>
                                     <div class="country-text">Qoo10 &amp; Rakuten Japan</div>
@@ -2236,7 +2238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="timeline_item-break"></div>
+               <!-- <div class="timeline_item-break"></div>-->
             </div>
         </div>
     </section>
@@ -2284,7 +2286,7 @@
             </div>
         </div>
     </section>
-    <section class="section-popup-banners">
+<!--    <section class="section-popup-banners">
         <div class="popup-banner-container">
             <h2 class="popup-banner-title">SUCCESS STORIES</h2>
             <div class="popup-banner-wrapper">
@@ -2338,7 +2340,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="section-home-corperate-cta">
         <div class="corperate-right-ripple">
             <div class="our-mission-css w-embed">
@@ -2791,7 +2793,7 @@
                 <p class="footer-bottom-contact-desc">Business Registration Number: <a href="#" class="link-5">418-86-02955</a> | CEO: Jeong Jiwon<br/>Hosting Service: Polfit Co., Ltd. l E-commerce Registration Number: 2023-SeoulGangnam-06593<br/>22, Teheran-ro 7-gil, 9F, Gangnam-gu, Seoul,
                     06130, Republic of Korea<br/>Contact: info@forsit.co.kr<br/></p>
             </div>
-            <div class="credit">© 2023 Forsit. All rights reserved</div>
+            <div class="credit">© 2024 Forsit. All rights reserved</div>
         </div>
     </div>
     </div>
