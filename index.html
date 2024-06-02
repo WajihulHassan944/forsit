@@ -21,6 +21,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="LQ_vikZxbw5nO23jDRpsvzBSRoaKAuvEaVMpP5n2zSM" name="google-site-verification" />
     <meta content="Webflow" name="generator" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
@@ -936,6 +937,313 @@ document.getElementById("startMenu").addEventListener("click", function() {
 		
 	  
     </section>
+	
+	
+	
+	
+	
+    <section class="section-leading-brands" style="background:#060606; ">
+        <div class="leading-brands-container">
+
+<div class="togglerSection">
+	
+	<div class="controlsToggler">
+		
+		  <div class="controlstogglerMain active" data-target="ailogos">
+                    <i class="fa fa-first-order"></i>
+                    <p>AI</p>
+                </div>
+                <div class="controlstogglerMain" data-target="webapps">
+                    <i class="fa fa-code"></i>
+                    <p>Web Apps</p>
+                </div>
+                <div class="controlstogglerMain" data-target="ecommercelogos">
+                    <i class="fa fa-shopping-cart"></i>
+                    <p>Ecommerce</p>
+                </div>
+                <div class="controlstogglerMain" data-target="marketinglogos">
+                    <i class="fa fa-bullhorn"></i>
+                    <p>Marketing</p>
+                </div>
+				
+				
+		</div>
+	<div class="logosToggler" id="ailogos">
+		<div class="rowLogos">
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+	</div>
+	</div>
+	
+	
+	<div class="logosToggler" id="webapps">
+		<div class="rowLogos">
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+	</div>
+	</div>
+	
+	
+	<div class="logosToggler" id="ecommercelogos">
+		<div class="rowLogos">
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+	</div>
+	</div>
+	
+	
+	<div class="logosToggler" id="marketinglogos">
+		<div class="rowLogos">
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+
+
+
+
+
+	  </div>
+    </section>
+	
+	
+	<style>
+	#marketinglogos, #ecommercelogos, #webapps{
+		display:none;
+	}
+		.togglerSection{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+		}
+		.controlsToggler{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			gap:30px;
+			padding:10px 20px;
+			border:1px solid #333;
+			border-radius:30px;
+		}
+		.controlstogglerMain{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			gap:5px;
+			cursor:pointer;
+		}
+		.controlstogglerMain:nth-child(1) {
+    width: 80px;
+}
+
+.controlstogglerMain:nth-child(2){
+width: 150px;
+}
+.controlstogglerMain:nth-child(3){
+width: 150px;
+}
+.controlstogglerMain:nth-child(4) {
+    width: 140px;
+}
+
+		.controlstogglerMain.active{
+			padding:8px 20px;
+			border-radius:30px;
+			color:#cca7d2; border:1px solid #55485b; outline:none; background:#342c34;
+		}
+		.controlstogglerMain i{
+			color:#fff;
+		}
+		
+		.controlstogglerMain p{
+			color:#fff;
+		}
+		
+		.logosToggler{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			margin-top:60px;
+		}
+		.rowLogos{
+			display:flex;
+		}
+		.logoimg{
+			width:250px;
+			height:150px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:1px solid #333;
+		}
+		.logoimg p{
+			color:#fff;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 @media(max-width: 767px){
+			.controlsToggler{
+			gap:10px;
+			padding:5px;
+			}
+		
+		.controlstogglerMain:nth-child(1) {
+    width: 50px;
+}
+
+.controlstogglerMain:nth-child(2){
+width: 125px;
+}
+.controlstogglerMain:nth-child(3){
+width: 100px;
+}
+.controlstogglerMain:nth-child(4) {
+    width: 100px;
+}
+
+
+		.controlstogglerMain.active{
+			padding:8px 10px;
+			border-radius:30px;
+			color:#cca7d2; border:1px solid #55485b; outline:none; background:#342c34;
+		}
+		.controlstogglerMain i{
+			color:#fff;
+			
+			font-size:14px;
+		}
+		
+		.controlstogglerMain p{
+			color:#fff;
+			font-size:14px;
+		}
+		
+		
+		
+		
+		
+		.logosToggler{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			margin-top:60px;
+		}
+		.rowLogos{
+			display:flex;
+		}
+		.logoimg{
+			width:120px;
+			height:70px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:1px solid #333;
+		}
+		.logoimg p{
+			color:#fff;
+		}
+		
+		 }
+	</style>
+	
+	
+	<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const togglerSections = document.querySelectorAll('.controlstogglerMain');
+        const sections = document.querySelectorAll('.logosToggler');
+
+        togglerSections.forEach(toggler => {
+            toggler.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+
+                // Toggle sections
+                sections.forEach(section => {
+                    section.style.display = section.id === targetId ? 'block' : 'none';
+                });
+
+                // Remove active class from all and add to the clicked one
+                togglerSections.forEach(toggler => toggler.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Default display
+        document.getElementById('ailogos').style.display = 'block';
+    });
+</script>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     <section class="section-leading-brands" style="background:#060606; ">
         <div class="leading-brands-container">
             <div class="leading-brand-title-wrap">

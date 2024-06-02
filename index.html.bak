@@ -21,6 +21,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="LQ_vikZxbw5nO23jDRpsvzBSRoaKAuvEaVMpP5n2zSM" name="google-site-verification" />
     <meta content="Webflow" name="generator" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
@@ -936,6 +937,313 @@ document.getElementById("startMenu").addEventListener("click", function() {
 		
 	  
     </section>
+	
+	
+	
+	
+	
+    <section class="section-leading-brands" style="background:#060606; ">
+        <div class="leading-brands-container">
+
+<div class="togglerSection">
+	
+	<div class="controlsToggler">
+		
+		  <div class="controlstogglerMain active" data-target="ailogos">
+                    <i class="fa fa-first-order"></i>
+                    <p>AI</p>
+                </div>
+                <div class="controlstogglerMain" data-target="webapps">
+                    <i class="fa fa-code"></i>
+                    <p>Web Apps</p>
+                </div>
+                <div class="controlstogglerMain" data-target="ecommercelogos">
+                    <i class="fa fa-shopping-cart"></i>
+                    <p>Ecommerce</p>
+                </div>
+                <div class="controlstogglerMain" data-target="marketinglogos">
+                    <i class="fa fa-bullhorn"></i>
+                    <p>Marketing</p>
+                </div>
+				
+				
+		</div>
+	<div class="logosToggler" id="ailogos">
+		<div class="rowLogos">
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+		<div class="logoimg"><p>AI</p></div>
+	</div>
+	</div>
+	
+	
+	<div class="logosToggler" id="webapps">
+		<div class="rowLogos">
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+		<div class="logoimg"><p>Webapps</p></div>
+	</div>
+	</div>
+	
+	
+	<div class="logosToggler" id="ecommercelogos">
+		<div class="rowLogos">
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+		<div class="logoimg"><p>Ecommerce</p></div>
+	</div>
+	</div>
+	
+	
+	<div class="logosToggler" id="marketinglogos">
+		<div class="rowLogos">
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+		</div>
+		
+		<div class="rowLogos">
+		
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+		<div class="logoimg"><p>Marketing</p></div>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+
+
+
+
+
+	  </div>
+    </section>
+	
+	
+	<style>
+	#marketinglogos, #ecommercelogos, #webapps{
+		display:none;
+	}
+		.togglerSection{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+		}
+		.controlsToggler{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			gap:30px;
+			padding:10px 20px;
+			border:1px solid #333;
+			border-radius:30px;
+		}
+		.controlstogglerMain{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			gap:5px;
+			cursor:pointer;
+		}
+		.controlstogglerMain:nth-child(1) {
+    width: 80px;
+}
+
+.controlstogglerMain:nth-child(2){
+width: 150px;
+}
+.controlstogglerMain:nth-child(3){
+width: 150px;
+}
+.controlstogglerMain:nth-child(4) {
+    width: 140px;
+}
+
+		.controlstogglerMain.active{
+			padding:8px 20px;
+			border-radius:30px;
+			color:#cca7d2; border:1px solid #55485b; outline:none; background:#342c34;
+		}
+		.controlstogglerMain i{
+			color:#fff;
+		}
+		
+		.controlstogglerMain p{
+			color:#fff;
+		}
+		
+		.logosToggler{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			margin-top:60px;
+		}
+		.rowLogos{
+			display:flex;
+		}
+		.logoimg{
+			width:250px;
+			height:150px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:1px solid #333;
+		}
+		.logoimg p{
+			color:#fff;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 @media(max-width: 767px){
+			.controlsToggler{
+			gap:10px;
+			padding:5px;
+			}
+		
+		.controlstogglerMain:nth-child(1) {
+    width: 50px;
+}
+
+.controlstogglerMain:nth-child(2){
+width: 125px;
+}
+.controlstogglerMain:nth-child(3){
+width: 100px;
+}
+.controlstogglerMain:nth-child(4) {
+    width: 100px;
+}
+
+
+		.controlstogglerMain.active{
+			padding:8px 10px;
+			border-radius:30px;
+			color:#cca7d2; border:1px solid #55485b; outline:none; background:#342c34;
+		}
+		.controlstogglerMain i{
+			color:#fff;
+			
+			font-size:14px;
+		}
+		
+		.controlstogglerMain p{
+			color:#fff;
+			font-size:14px;
+		}
+		
+		
+		
+		
+		
+		.logosToggler{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			margin-top:60px;
+		}
+		.rowLogos{
+			display:flex;
+		}
+		.logoimg{
+			width:150px;
+			height:70px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:1px solid #333;
+		}
+		.logoimg p{
+			color:#fff;
+		}
+		
+		 }
+	</style>
+	
+	
+	<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const togglerSections = document.querySelectorAll('.controlstogglerMain');
+        const sections = document.querySelectorAll('.logosToggler');
+
+        togglerSections.forEach(toggler => {
+            toggler.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+
+                // Toggle sections
+                sections.forEach(section => {
+                    section.style.display = section.id === targetId ? 'block' : 'none';
+                });
+
+                // Remove active class from all and add to the clicked one
+                togglerSections.forEach(toggler => toggler.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Default display
+        document.getElementById('ailogos').style.display = 'block';
+    });
+</script>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     <section class="section-leading-brands" style="background:#060606; ">
         <div class="leading-brands-container">
             <div class="leading-brand-title-wrap">
@@ -2430,9 +2738,10 @@ border:1px solid #55485b; outline:none; background:#342c34;
                                 <p class="service-blurb-list-item-desc" >Forsit has successfully positioned 70 of our Korean products as #1 bestsellers across multiple platforms, including Amazon US, JP, UK, ES, DE, IT, FR, Qoo10, and Rakuten. </p>
                             </div>
                         </div>
-                        <div class="service-btn-wrap"><a data-w-id="84756764-0a00-96be-966d-d9145e0f6ebc" style="background: radial-gradient(231.94% 231.94% at 50% 100%, #8a6cff 0, rgba(53, 41, 128, 0) 25.24%), linear-gradient(180deg, rgba(243, 238, 255, 0), rgba(243, 238, 255, .04)), rgba(147, 130, 255, .01);
-    box-shadow: 0 0 0 0 rgba(16, 0, 51, .4), 0 2px 5px 0 rgba(16, 0, 51, .39), 0 8px 8px 0 rgba(16, 0, 51, .34), 0 19px 11px 0 rgba(16, 0, 51, .2), 0 34px 14px 0 rgba(16, 0, 51, .06), 0 53px 15px 0 rgba(16, 0, 51, .01), inset 0 0 12px 0 hsla(0, 0%, 100%, .08), inset 0 -8px 32px 0 #1e0d49;
-	border:1px solid #c3b0e6; border-radius:10px; padding:8px 20px; color:#fff;" class="service-blurb-btn w-button">Check Our Brands</a>
+                        <div class="service-btn-wrap"><a data-w-id="84756764-0a00-96be-966d-d9145e0f6ebc" style="
+						background: radial-gradient(231.94% 231.94% at 50% 100%, #c88bc4 0, rgba(200, 139, 196, 0) 25.24%), linear-gradient(180deg, rgba(243, 238, 255, 0), rgba(243, 238, 255, .04)), rgba(200, 139, 196, .01);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .4), 0 2px 5px 0 rgba(0, 0, 0, .39), 0 8px 8px 0 rgba(0, 0, 0, .34), 0 19px 11px 0 rgba(0, 0, 0, .2), 0 34px 14px 0 rgba(0, 0, 0, .06), 0 53px 15px 0 rgba(0, 0, 0, .01), inset 0 0 12px 0 hsla(0, 0%, 100%, .08), inset 0 -8px 32px 0 #1e001c;
+						border:1px solid #c3b0e6; border-radius:10px; padding:8px 20px; color:#fff;" class="service-blurb-btn w-button">Check Our Brands</a>
                             
                         </div>
                     </div>
