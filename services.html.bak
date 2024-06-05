@@ -829,7 +829,7 @@ document.getElementById("startMenu").addEventListener("click", function() {
 	width:50%; overflow:hidden;
 }
                             @media(max-width: 768px) {
-								.service-video-wrap-custom{
+								service-video-wrap-custom{
 								width:100%; overflow:hidden;
 								}
 							}
