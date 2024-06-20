@@ -526,7 +526,9 @@ body {
 						
 						
 					<style>
-				
+					*{
+						border:2px solid red;
+					}
 						.megaDivResources{
 							position:absolute;
 							left:0;
