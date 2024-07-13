@@ -2610,7 +2610,7 @@ width: 100px;
         });
 
         marketplace.addEventListener('mouseout', function() {
-            marketplaceNameDisplay.textContent = 'MARKETPLACES'; // Clear the marketplace name when mouse leaves
+            marketplaceNameDisplay.textContent = 'marketplaces'; // Clear the marketplace name when mouse leaves
             marketplaceNameDisplay.style.color = 'inherit'; // Reset to default color
         });
     });
@@ -2621,10 +2621,14 @@ width: 100px;
                     
 					 <center style="width:100%;"><div style="width:80%;">   	
 						<div class="marketplacesWrapAround">
-							<p  class="marketplaces-common-heading" style="font-size:19px;">YOUR&nbsp;<span id="toShowMarketplaceName" style="text-transform:capitalize;">MARKETPLACES</span>&nbsp;YOUR &nbsp;WAY</p>	
+							
+				<div 	class="marketplaces-common-heading" style="display:flex;
+				flex-direction:column; align-items:flex-start; padding-left:7%;">
+					<p >Your&nbsp;<span id="toShowMarketplaceName" >marketplaces</span></p>
+<p>Your way</p>					
 					
-					
-					
+				
+				</div>
 					
                          <div class="link-img-block amazon-hover-class  marketplaces-common" data-product="amazon">
         <img src="https://assets-global.website-files.com/65759a035ce2b79146bb2374/65759a035ce2b79146bb23f0_Group%2075.svg" loading="lazy" alt="" class="slider-logo-img invert-logo" />
@@ -2793,7 +2797,15 @@ width: 100px;
 						
 						
 						
-					<p  class="ads-common-heading" style="font-size:19px;">YOUR&nbsp;<span id="toShowAdName" style="text-transform:capitalize;">Ads Platform</span>&nbsp;YOUR &nbsp;WAY</p>	
+						
+						<div class="ads-common-heading" style="display:flex;
+				flex-direction:column; align-items:flex-start; padding-left:6%;">
+				
+				
+					<p>Your&nbsp;<span id="toShowAdName" >ads platform</span></p>	
+						<p>your way</p>
+				
+				</div>
 						
 						<div class="link-img-block tiktok-hover-class ads-common" data-product="tiktok"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
     <path fill="#bfbfbf" d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
@@ -2889,7 +2901,7 @@ width: 100px;
         });
 
         ad.addEventListener('mouseout', function() {
-            adNameDisplay.textContent = 'ADS PLATFORM'; // Clear the ad name when mouse leaves
+            adNameDisplay.textContent = 'ads platform'; // Clear the ad name when mouse leaves
             adNameDisplay.style.color = 'inherit'; // Reset to default color
         });
     });
